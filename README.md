@@ -1,3 +1,7 @@
+# Description
+This app shows the bitcoin prices (multiple attributes) for a certain date range. the dates are based on todays date and previous dates. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
