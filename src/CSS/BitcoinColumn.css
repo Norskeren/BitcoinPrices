@@ -1,0 +1,56 @@
+#div_BitcoinColumn {
+	border: solid purple 4px;
+	margin: 0.5em;
+	display: flex;
+	flex-direction: row;
+	min-width: 90%;
+	justify-content: space-between;
+	box-shadow: 4px 3px 5px 0 rgba(3,2,2,0.52);
+	-webkit-box-shadow: 4px 3px 5px 0 rgba(3,2,2,0.52);
+	-moz-box-shadow: 4px 3px 5px 0 rgba(3,2,2,0.52);
+	border-radius: 20px;
+	opacity: 70%;
+}
+#div_BitcoinColumn:hover {
+	opacity: 100%;
+}
+#div_time_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-right: solid 2px purple;
+	border-radius: 20px;
+}
+#div_BitcoinColumn > div    {
+	/*border-left: solid purple 2px;*/
+	/*border-right: solid purple 2px;*/
+	padding-left: 1rem;
+	padding-right: 1rem;
+	width: 25%;
+
+	display: flex;
+	flex-direction: column;
+}
+#div_BitcoinColumn > div > div {
+	margin-left: 1rem;
+	margin-right: 1rem;
+
+}
+#div_BitcoinColumn > div > div > p {
+	color: white;
+}
+span {
+	font-weight: bold;
+}
+
+@media only screen
+and (max-width: 700px){
+	#div_BitcoinColumn  {
+		flex-direction: column;
+	}
+	#div_BitcoinColumn > div {
+		border-top: solid purple 2px;
+		border-left: solid purple 2px;
+
+	}
+}
